@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace SolidPrinciples.S
 {
     public class ScoreManager : MonoBehaviour
     {
         public static ScoreManager instance;
-        public Text scoreText;
+        public TextMeshProUGUI scoreText;
         private int score = 0;
 
         void Awake()
