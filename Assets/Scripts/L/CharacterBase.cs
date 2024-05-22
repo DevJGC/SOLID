@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 namespace SolidPrinciples.L
 {
@@ -6,5 +7,7 @@ namespace SolidPrinciples.L
     {
         public string characterName;
         public abstract void Attack();
+
+        public TextMeshProUGUI textCanvas;
     }
 }

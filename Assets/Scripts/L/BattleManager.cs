@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace SolidPrinciples.L
 {
     public class BattleManager : MonoBehaviour
     {
         public CharacterBase[] characters;
-        public Text selectedCharacterText;
+        public TextMeshProUGUI selectedCharacterText;
         private int currentIndex = 0;
 
         void Start()
@@ -44,7 +45,7 @@ namespace SolidPrinciples.L
 
         void UpdateSelectedCharacterText()
         {
-            selectedCharacterText.text = "Selected: " + characters[currentIndex].characterName;
+            selectedCharacterText.text = "Seleccionado: " + characters[currentIndex].characterName;
         }
     }
 }
