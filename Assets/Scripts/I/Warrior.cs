@@ -7,8 +7,6 @@ namespace SolidPrinciples.I
     {
         [SerializeField] private TextMeshProUGUI textMovable;
         [SerializeField] private TextMeshProUGUI textAttacker;
-
-        // no se utiliza
         [SerializeField] private TextMeshProUGUI textHealer;
 
 
@@ -17,7 +15,7 @@ namespace SolidPrinciples.I
             Debug.Log(heroName + " se puede mover.");
             // Implementar lógica de movimiento
             textMovable.text = heroName + " se puede mover.";
-            // no se utiliza
+
             textHealer.text = "";
         }
 
@@ -26,7 +24,7 @@ namespace SolidPrinciples.I
             Debug.Log(heroName + " empuña la espada!");
             // Implementar lógica de ataque
             textAttacker.text = heroName + " empuña la espada!";
-            // no se utiliza
+
             textHealer.text = "";
         }
     }

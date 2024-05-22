@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,7 +9,6 @@ public class ExitScene : MonoBehaviour
         
     }
 
-
     void Update()
     {
         if (Application.isPlaying)
@@ -20,8 +17,7 @@ public class ExitScene : MonoBehaviour
             {
                 Exit();
             }
-        }
-        
+        }       
     }
 
     public void Exit()

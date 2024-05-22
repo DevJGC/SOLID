@@ -1240,8 +1240,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Segregaci\xF3n de Interfaces: Intercambio entre 3 personajes, cada cual
-    con su comportamiento determinado, alguno compartido, otro no. Acci\xF3n compartida
-    por todos: -Mover. -Curar: Mago y Curandero. -Atacar: Warrior y Mago."
+    con su comportamiento determinado, alguno compartido, otro no. Puede Moverse
+    = Todos. Puede Curar = Mago y Curandero. Puede Atacar = Warrior y Mago"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
